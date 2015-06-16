@@ -23,7 +23,7 @@ int main(void)
 
     /* Display after sub time */
     gettimeofday(&t0, NULL);
-    printf("After sub 100mm seconds: %dsec %dusec\n", t0.tv_sec, t0.tv_usec);
+    printf("After sub 100mili seconds: %dsec %dusec\n", t0.tv_sec, t0.tv_usec);
 
     return 0;
 }
