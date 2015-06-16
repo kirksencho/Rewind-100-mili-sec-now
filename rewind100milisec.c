@@ -12,7 +12,7 @@ int main(void)
     /* Display now time */
     printf("Now time: %dusec\n", t0.tv_sec, t0.tv_usec);
 
-    if ( t0.tv_usec > 100000 ) {
+    if ( t0.tv_usec >= 100000 ) {
         t0.tv_usec = t0.tv_usec - 100000;
     } else {
         t0.tv_sec = t0.tv_sec - 1;
